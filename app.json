@@ -1,40 +1,45 @@
 {
   "expo": {
-    "name": "src",
-    "slug": "src",
+    "name": "canary",
+    "slug": "canary",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/images/icon.png",
-    "scheme": "myapp",
+    "icon": "./assets/images/icon.png",
+    "scheme": "canary",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.lucksp.src"
+      "bundleIdentifier": "com.lucksp.myapp"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.lucksp.src"
+      "package": "com.lucksp.myapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCH7JmXg2DHhoQLTYPL3plfEVkB6y48vco"
+        }
+      }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./src/assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./src/assets/images/splash-icon.png",
+          "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true

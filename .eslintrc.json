@@ -66,6 +66,7 @@
         "varsIgnorePattern": "^_"
       }
     ],
+    "@typescript-eslint/no-require-imports": "off",
     "import/no-unresolved": "off",
     "sort-imports": "off",
     "import/extensions": "off",

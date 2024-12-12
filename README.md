@@ -24,6 +24,8 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
  yarn ios
 ```
 
+> Note: you may add the `--device` flag to choose your emulator or physical test device
+
 ## Assignment
 
 The goal of this exercise is to simulate a connection to third party sensor that is moving through an area collecting pollutant and air quality data.
