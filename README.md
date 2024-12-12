@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# Welcome to the Project Canary take home challenge 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -36,6 +36,5 @@ For the purposes of this exercise only worry about running the Android version o
 
 - Map Screen - Visualize the provided data on a map.
 - Chart Screen - Visualize the Methane and Ethane data on a timeseries chart.
-- Bonus - Can you set up the app to mock as if the data is streaming in live?
 
 > Mock data can be found in `\src\mock-data`
