@@ -1,0 +1,9 @@
+build
+CHANGELOG.md
+coverage
+dist
+node_modules
+.github
+.husky
+ios
+android
