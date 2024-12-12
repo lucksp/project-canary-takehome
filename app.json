@@ -1,20 +1,26 @@
 {
   "expo": {
-    "name": "src",
-    "slug": "src",
+    "name": "canary",
+    "slug": "canary",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "canary",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lucksp.myapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.lucksp.myapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCH7JmXg2DHhoQLTYPL3plfEVkB6y48vco"
+        }
       }
     },
     "web": {
@@ -32,7 +38,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
