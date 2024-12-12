@@ -29,20 +29,12 @@ export default function HomeScreen() {
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Map</ThemedText>
-        <ThemedText>
-          Tap the Explore tab to learn more about what is included in this
-          starter app.
-        </ThemedText>
+        <ThemedText>Tap the Map tab to see your data points.</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Chart</ThemedText>
         <ThemedText>
-          When you are ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText>{' '}
-          to get a fresh <ThemedText type="defaultSemiBold">app</ThemedText>{' '}
-          directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          Tap the Chart tab to see your Ch4 & C2H6 over time.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
